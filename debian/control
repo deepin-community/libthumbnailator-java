@@ -1,0 +1,32 @@
+Source: libthumbnailator-java
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Markus Koschany <apo@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ default-jdk,
+ maven-debian-helper (>= 2.6)
+Standards-Version: 4.6.0
+Vcs-Git: https://salsa.debian.org/java-team/libthumbnailator-java.git
+Vcs-Browser: https://salsa.debian.org/java-team/libthumbnailator-java
+Homepage: https://github.com/coobird/thumbnailator
+
+Package: libthumbnailator-java
+Architecture: all
+Depends:
+ ${maven:Depends},
+ ${misc:Depends}
+Suggests:
+ ${maven:OptionalDepends}
+Description: thumbnail generation library for Java
+ Thumbnailator simplifies the task of making thumbnails into a single method
+ call.
+ .
+  * Create high-quality thumbnails from existing images.
+  * Option to embed a watermark (such as a logo) in the thumbnails.
+  * Transparency of the watermark is adjustable from transparent (0%) to opaque
+    (100%).
+  * Supports rotation of thumbnail.
+  * Preserves the aspect ratio of resulting thumbnail, if desired.

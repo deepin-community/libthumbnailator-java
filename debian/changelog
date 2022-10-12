@@ -1,0 +1,35 @@
+libthumbnailator-java (0.4.17-1+u001) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>  Wed, 25 May 2022 11:10:31 +0800
+
+libthumbnailator-java (0.4.17-1) unstable; urgency=medium
+
+  * New upstream version 0.4.17.
+
+ -- Markus Koschany <apo@debian.org>  Sat, 12 Feb 2022 21:58:16 +0100
+
+libthumbnailator-java (0.4.16-1) unstable; urgency=medium
+
+  * New upstream version 0.4.16.
+
+ -- Markus Koschany <apo@debian.org>  Thu, 06 Jan 2022 23:48:06 +0100
+
+libthumbnailator-java (0.4.15-1) unstable; urgency=medium
+
+  * New upstream version 0.4.15.
+
+ -- Markus Koschany <apo@debian.org>  Sun, 19 Dec 2021 00:49:44 +0100
+
+libthumbnailator-java (0.4.14-2) unstable; urgency=medium
+
+  * Source-only rebuild.
+
+ -- Markus Koschany <apo@debian.org>  Sat, 20 Nov 2021 11:18:37 +0100
+
+libthumbnailator-java (0.4.14-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #995821)
+
+ -- Markus Koschany <apo@debian.org>  Thu, 07 Oct 2021 22:00:03 +0200
